@@ -1,0 +1,35 @@
+div.logo {
+    top: 2%;
+    display: grid;
+    position: absolute;
+    left: 2%;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    row-gap: 7%;
+    justify-content: center;
+}
+
+span.logoD {
+    font-size: 15px;
+    vertical-align: text-top;
+}
+
+.imagen {
+    border-style: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+}
+
+div.contactDiv {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 10px;
+}
+
+div > #contacto {
+    margin: auto;
+    border-style: none;
+    box-shadow: none;
+    background: none;
+}
